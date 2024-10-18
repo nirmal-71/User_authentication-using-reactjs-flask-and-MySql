@@ -30,6 +30,7 @@ The application consists of a backend API that handles user registration, login,
 
 - Python 3.x
 - Node.js and npm
+- MySQL
 
 ### Steps
 
@@ -57,7 +58,7 @@ The application consists of a backend API that handles user registration, login,
    - Navigate to the frontend folder
    - Install the dependencies:
      ```bash
-    npm install express cors body-parser mysql2 bcrypt nodemon
+     npm install express cors body-parser mysql2 bcrypt nodemon
      ```
    - Run the frontend application:
      ```bash
