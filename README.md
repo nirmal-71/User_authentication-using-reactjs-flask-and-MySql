@@ -55,12 +55,16 @@ The application consists of a backend API that handles user registration, login,
    ```
 
 4. **Frontend Setup:**
-   - Navigate to the frontend folder
-   - Install the dependencies:
+   - Create a new React app and navigate to its directory:
      ```bash
-     npm install express cors body-parser mysql2 bcrypt nodemon
+     npx create-react-app frontend
+     cd frontend
      ```
-   - Run the frontend application:
+   - Install the necessary dependencies:
+     ```bash
+     npm install axios express cors body-parser mysql2 bcrypt nodemon
+     ```
+   - Start the frontend application:
      ```bash
      npm start
      ```
