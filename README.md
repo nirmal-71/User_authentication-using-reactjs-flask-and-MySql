@@ -37,7 +37,7 @@ The application consists of a backend API that handles user registration, login,
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/nirmal-71/user-auth-system.git
-   cd user-auth-system
+   cd backend
    ```
 
 2. **Backend Setup:**
